@@ -1,0 +1,12 @@
+// Defining a Mixin for background color
+@mixin set-bgc($color) {
+    background-color: $color;
+}
+
+// Mixin for flex direction
+@mixin flex($direction, $justify, $align) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
